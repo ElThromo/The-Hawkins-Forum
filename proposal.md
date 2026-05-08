@@ -28,7 +28,7 @@ Regularidad:
 |Req|Detalle|
 |:-|:-|
 |CRUD simple|1. CRUD Usuario<br>2. CRUD Categoria<br>3. CRUD Zona |
-|CRUD dependiente|1. CRUD Reporte {depende de} CRUD Usuario<br>2. CRUD Comentario {depende de} CRUD Usuario y Reporte|
+|CRUD dependiente|1. CRUD Vigilante {depende de} CRUD Zona<br>2. CRUD Comentario {depende de} CRUD Usuario y Reporte|
 |Listado<br>+<br>detalle| 1. Listado de reportes, muestra título, categoria y usuario => detalle muestra contenido completo y comentarios <br>2. Listado de resoluciones con filtro => categoria y orden|
 |CUU/Epic|1. Realizar reporte de anomalia<br>2. Comentar o reaccionar al reporte de otro usuario|
 
@@ -36,7 +36,7 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Usuario<br>2. CRUD Categoria<br>3. CRUD Zona<br>4. CRUD Comentario<br>5. CRUD Reporte<br>6. CRUD Reaccion<br>7. CRUD Resolucion|
+|CRUD |1. CRUD Usuario<br>2. CRUD Categoria<br>3. CRUD Zona<br>4. CRUD Comentario<br>5. CRUD Vigilante<br>6. CRUD Reaccion<br>7. CRUD Resolucion|
 |CUU/Epic|1. Validar y cambiar el estado de un reporte (No verificado, En investigacion, Verificado) <br>2. Agregar una resolución a un reporte luego de la investigación realizada por un investigador|
 
 
